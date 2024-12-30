@@ -71,10 +71,10 @@ class NewList():
 
 a = NewList()
 a.init_list(1, 2)
-
+```
 #def init_list(self, 1): 에서 'self'와 '1' 두개가 있으니깐 a.init_list(1, 2)에 '1'과 '2' 두개를 대입함 (self=1, 1=2)
 
-# 그러면 self.list = 1에서 에러가 생김(1.list = 2) 2개의 인자를 받아야하는데 3개의 인자를 받음.
+#그러면 self.list = 1에서 에러가 생김(1.list = 2) 2개의 인자를 받아야하는데 3개의 인자를 받음.
 
 #함수와 메서드의 동작 방식때문
 
